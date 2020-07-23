@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.card {
+  width: 400px;
+}
+
+.card-carousel {
+  position: relative;
+}
+
+.card-carousel img {
+  display: block;
+  width: 100%;
+}
+
+.card-carousel #prev {
+  background-image: url(./icon-backward.svg);
+  left: 0;
+}
+
+.card-carousel #next {
+  background-image: url(./icon-forward.svg);
+  right: 0;
+}
+
+.card-carousel button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1f2d3d;
+  line-height: 1.4545454545;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card-content > span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d858f;
+  line-height: 1.5;
+  margin-right: 10px;
+}
+
+.card-content strong {
+  font-size: 22px;
+  color: #2860e1;
+  line-height: 1.0909090909;
+  display: block;
+  text-align: right;
+}
+
+.card-content strong span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #525d69;
+  line-height: 1.5;
+  margin-right: 4px;
+}
