@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS 연습-event</title>
+    <h1 id="main-title">Event</h1>
+    <style>
+      h1 {
+        width: 100px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">버튼</button>
+    <script>
+      var mainTitle = document.querySelector("#main-title");
+      var btn = document.querySelector(".btn");
+      function btnClickHandler() {
+        mainTitle.style.background = "dodgerblue";
+      }
+      btn.addEventListener("click", btnClickHandler);
+    </script>
+  </body>
+</html>
