@@ -108,6 +108,31 @@ p {
   margin-right: 8px;
 }
 
+/*service*/
+.service {
+  background-color: #f4f5f7;
+}
+
+.service-content {
+  width: 100%;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 1.36363636363;
+  letter-spacing: -0.04em;
+}
+
+.service-desc {
+  margin-bottom: 40px;
+}
+
 /* ≥ 768px (Desktop) */
 @media screen and (min-width: 768px) {
   p {
@@ -141,31 +166,6 @@ p {
   .landing .button-group .fill-button:first-child {
     margin-right: 16px;
   }
-}
-
-/*service*/
-.service {
-  background-color: #f4f5f7;
-}
-
-.service-content {
-  width: 100%;
-  height: 496px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.service-title {
-  margin-bottom: 16px;
-  font-size: 22px;
-  line-height: 1.36363636363;
-  letter-spacing: -0.04em;
-}
-
-.service-desc {
-  margin-bottom: 40px;
 }
 
 /* Custom Grid System Fix container width */
