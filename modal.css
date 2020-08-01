@@ -63,6 +63,7 @@ body {
   line-height: 20px;
   color: #8492a6;
   padding: 8px 16px;
+  margin-right: 8px;
 }
 
 .input-group button {
